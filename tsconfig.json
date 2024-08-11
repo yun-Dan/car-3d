@@ -1,0 +1,20 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "types": ["node"], // 如果你需要 Node.js 类型
+    "typeRoots": ["node_modules/@types"] // 默认包含 @types
+    // 其他配置
+  },
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ]
+}
