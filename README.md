@@ -63,6 +63,6 @@ yarn test:e2e --debug
 yarn lint
 ```
 
-### `demo review`
+### `demo display`
 
 ![图片展示效果](./car.gif 'demo的展示效果')
